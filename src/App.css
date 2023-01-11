@@ -1,17 +1,17 @@
-.Parent{
-    display: inline-block;
-    padding: 20px;
-    background-color: #860F0F;
+.Parent {
+  display: inline-block;
+  padding: 20px;
+  background-color: #860f0f;
 }
 
-.Broadcaster{
-    background-color: #860F0F;
-    width: 100%;
-    margin-top: 40px;
-    padding-top: 30px;
+.Broadcaster {
+  background-color: #860f0f;
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 30px;
 }
 
-.meet{
-    color: white;
-    text-align: center;
+.meet {
+  color: white;
+  text-align: center;
 }
