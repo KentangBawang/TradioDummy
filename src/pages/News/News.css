@@ -1,0 +1,74 @@
+.Head {
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  width: 100%;
+  min-width: 1024px;
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  z-index: 999;
+  position: fixed;
+  top: 0px;
+  right: 0;
+  left: 0;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 7%);
+  height: 90px;
+}
+
+.Dalem {
+  width: 96%;
+  left: 32px;
+  display: flex;
+  height: 30px;
+  top: 30px;
+  position: fixed;
+  align-items: center;
+}
+
+img {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  margin: 4px 0 0 4px;
+}
+
+.LogoText {
+  color: #860f0f;
+}
+
+.Play {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #860f0f;
+  margin-left: 200px;
+  border-radius: 100%;
+  border-width: 0;
+}
+
+.Play img {
+  width: 100%;
+  align-self: center;
+}
+
+.Search-bar {
+  width: 400px;
+  height: 20px;
+  border: 1px solid #cccccc;
+  border-radius: 10px;
+  font-size: 14px;
+  padding: 6px 12px;
+  margin-left: 20px;
+}
+
+a {
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.Menu {
+  padding-left: 20px;
+  margin: 0;
+}
