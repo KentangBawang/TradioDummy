@@ -1,73 +1,70 @@
-.ParentBox{
-    background: whitesmoke;
-    width: 80%;
-    overflow: hidden;
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 10px;
-  }
-  
-  .Photo{
-    width: 30%;
-    overflow: hidden;
-    float: left;
-    background: whitesmoke;
-    margin: 0;
-    border-radius: 10px 10px 0 0 ;
-    
-  }
-  
-  .Photo img{
-    width: 300px;
-    height: 400px;
-    margin: 0;
-    object-fit: cover;
-  }
-  
-  .Deskripsi{
-    width: 40%;
-    overflow: hidden;
-    float: left;
-    margin-left: 30px;
-  }
-  
-  .Deskripsi .Info{
-    line-height: 1.8;
-    color: navy;
-  }
-  
-  .Deskripsi .Price{
-    font-size: 20px;
-    font-weight: 500;
-  }
-  
-  .Deskripsi .Title{
-    margin: 0;
-  }
-  
-  .Deskripsi .Category{
-    color: grey;
-  }
-  
-  .Deskripsi a{
-    margin-top: 20px;
-    color: #ffff;
-    font-weight: 500;
-    background-color: red;
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px 20px 10px 20px;
-    font-size: 20px;
-    border-radius: 8px;
-    transition: all 0.8s;
-  
-  }
-  
-  .Deskripsi a:hover{
-    color: #ffff;
-    background-color: red;
-    transition: all 0.8s;
-  }
-  
-  
-  
+.ParentBox {
+  background: whitesmoke;
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 10px;
+}
+
+.Photo {
+  width: 30%;
+  overflow: hidden;
+  float: left;
+  background: whitesmoke;
+  margin: 0;
+  border-radius: 10px 10px 0 0;
+}
+
+.Photo img {
+  width: 300px;
+  height: 400px;
+  margin: 0;
+  object-fit: cover;
+}
+
+.Deskripsi {
+  width: 40%;
+  overflow: hidden;
+  float: left;
+  margin-left: 30px;
+  padding-top: 20px;
+  line-height: 1;
+}
+
+.Deskripsi .Info {
+  line-height: 1.8;
+  color: navy;
+}
+
+.Deskripsi .Price {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.Deskripsi .Title {
+  margin: 0;
+}
+
+.Deskripsi .Category {
+  color: grey;
+}
+
+.Deskripsi a {
+  margin-top: 20px;
+  color: #ffff;
+  font-weight: 500;
+  background-color: red;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px 10px 20px;
+  font-size: 20px;
+  border-radius: 8px;
+  transition: all 0.8s;
+}
+
+.Deskripsi a:hover {
+  color: #ffff;
+  background-color: red;
+  transition: all 0.8s;
+}

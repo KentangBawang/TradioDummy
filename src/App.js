@@ -8,6 +8,15 @@ function App() {
   return (
     <div className="App">
       <Header />
+
+      <div className="About">
+        <h1 className="Judul"> Welcome To Telkom Radio</h1>
+      </div>
+
+      <div className="Program">
+        <h1 className="TitleProgram">Our Program</h1>
+      </div>
+
       <CartProduct photo="girlstalk.png" category="Monday" title="GIRLS TALK" price="19.00 - 21.00" info="Listen Girls Wanna Talk" />
       <CartProduct photo="pophub.png" category="Tuesday" title="POP HUB" price="19.00 - 21.00" info="I POP U WITH THE HUB" />
 

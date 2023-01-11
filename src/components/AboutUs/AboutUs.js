@@ -1,8 +1,13 @@
-import React, { useState } from "react";
+import React from "react";
 import "./AboutUs.css";
 
-function Header(props) {
-  return <div className="Parent"></div>;
+function AboutUs(props) {
+  return (
+    <div className="Parent">
+      <h1 className="Judul">Welcome To Telkom Radio</h1>
+      <p>Radio Kampus Nomor Satu!</p>
+    </div>
+  );
 }
 
-export default Header;
+export default AboutUs;
