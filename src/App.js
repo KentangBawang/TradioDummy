@@ -1,20 +1,20 @@
-import logo from "./logo.svg";
 import "./App.css";
 import CartProduct from "./components/CartProduct";
 import SmallMenu from "./components/SmallMenu";
 import Header from "./components/Header/Header";
+import { useEffect } from "react";
+import AboutUs from "./components/AboutUs/AboutUs";
 
 function App() {
+  useEffect(() => {
+    document.title = "Telkom Radio";
+  }, []);
+
   return (
     <div className="App">
       <Header />
-
       <div className="About">
-        <h1 className="Judul"> Welcome To Telkom Radio</h1>
-        <div className="Judul">
-          <button className="ButtonWhite">Stream Now!</button>
-          <button className="ButtonWhite">Get Started</button>
-        </div>
+        <AboutUs />
       </div>
 
       <div className="Program">

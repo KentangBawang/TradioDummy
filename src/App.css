@@ -41,33 +41,3 @@
   color: #860f0f;
   text-align: center;
 }
-
-.Tagline {
-  color: white;
-  font-size: 40px;
-  margin-top: 20px;
-  text-align: center;
-  padding-top: 20px;
-}
-
-.ButtonWhite {
-  background-color: white;
-  border-radius: 30px;
-  border-width: 0;
-  cursor: pointer;
-  color: #860f0f;
-  font-size: 20px;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  text-align: center;
-  font-style: normal;
-  margin-right: 20px;
-  margin-top: 0;
-}
-
-.ButtonText {
-  color: #860f0f;
-  font: 20px;
-}
