@@ -11,6 +11,10 @@ function App() {
 
       <div className="About">
         <h1 className="Judul"> Welcome To Telkom Radio</h1>
+        <div className="Judul">
+          <button className="ButtonWhite">Stream Now!</button>
+          <button className="ButtonWhite">Get Started</button>
+        </div>
       </div>
 
       <div className="Program">

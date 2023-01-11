@@ -80,12 +80,13 @@ img {
   border-radius: 10px;
   font-size: 14px;
   padding: 6px 12px;
-  margin-left: 40px;
+  margin-left: 60px;
 }
 
 a {
   text-decoration: none;
   padding-left: 20px;
+  color: #860f0f;
 }
 
 .Menu {
